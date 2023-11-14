@@ -10,6 +10,7 @@ public class AlienTemple
 {
     public void startGame()
     {
+        System.out.println(introParagraph);
         // game functionality stuff goes here
     }
     public static void main(String[] args)
@@ -57,7 +58,6 @@ public class AlienTemple
             switch(choice)
             {
                 case "new game":
-                    System.out.println(introParagraph);
                     // startGame();
                 case "load game":
                     // something here
