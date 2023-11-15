@@ -1,6 +1,6 @@
 package Alien_Temple;
 
-class Item
+interface Item
 {
     private String itemName;
     private String itemDescription;
